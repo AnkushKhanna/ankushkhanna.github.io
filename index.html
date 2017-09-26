@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <style type="text/css">
@@ -17,6 +18,7 @@
         .text_tech {
             border-width: 10px;
             padding-top: 10px;
+            font-family: Arial;
         }
     </style>
 </head>
@@ -259,81 +261,12 @@
         </div>
     </div>
     <br/><br/>
+
     <div class='external_links'>
         <div class='github'>
-            <h5>Github</h5>
+            <h5>Top GitHub</h5>
             <div class="inner_padding">
-                <div class="row border" style="background-color: white">
-                    <div class='col-md-4 col-sd-4 text_tech'>
-
-                        <a href='https://ankushkhanna.github.io/akka-fun/' style="color: black"><p>Akka Features</p>
-                        </a>
-
-                    </div>
-                    <div class='col-md-8 col-sd-8 text_tech'>
-                        <ul>
-                            <li><a href='https://github.com/AnkushKhanna/akka-fun/tree/master/src/main/scala/actor/fsm'
-                                   style="color: black;">Akka FSM example</a></li>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/akka-fun/tree/master/src/main/scala/actor/circuitbreaker'
-                                   style="color: black;">Akka Circuit break</a></li>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/akka-fun/tree/master/src/main/scala/actor/kafka'
-                                   style="color: black;">Akka with kafka</a></li>
-                        </ul>
-                    </div>
-
-                    <div class='col-md-4 col-sd-4 text_tech'>
-                        <a href='https://ankushkhanna.github.io/spark-common/' style="color: black">Spark Wrapper
-                        </a>
-                    </div>
-                    <div class='col-md-8 col-sd-8 text_tech'>
-                        <ul>
-                            <li>Spark Transformer for Feature engineering</li>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/spark-common/blob/master/src/main/scala/common/evaluator/MultiClassLogLoss.scala'
-                                   style="color: black">Adding multiclass log loss</a></li>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/spark-common/tree/master/src/main/scala/common/userdefinedaggregator'
-                                   style="color: black">Adding user defined aggregator</a></li>
-                        </ul>
-                    </div>
-
-                    <div class='col-md-4 col-sd-4 text_tech'>
-
-                        <a href='https://ankushkhanna.github.io/spring-example/' style="color: black">Spring Example
-                        </a>
-
-                    </div>
-                    <div class='col-md-8 col-sd-8 text_tech'>
-                        <ul>
-                            <li>Spring Boot</li>
-                            <li>Spring Controller</li>
-                            <li>Spring Autowiring</li>
-                        </ul>
-                    </div>
-
-                    <div class='col-md-4 col-sd-4 text_tech'>
-                        <a href='http://ankushkhanna.github.io/mahout-unknown-user/' style="color: black">Mahout
-                            Recommendation</a>
-                    </div>
-                    <div class='col-md-8 cold-sd-8 text_tech'>
-                        <ul>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/mahout-unknown-user/blob/master/src/main/java/ex/recommender/learn/LearnRecommendationSVD.java'
-                                   style="color: black">Recommendation using SVD with user bias</a>
-                                <br/>
-                                Kaggle competition 3rd Rank, using this algorithm
-                            </li>
-                            <li>
-                                <a href='https://github.com/AnkushKhanna/mahout-unknown-user/blob/master/src/main/java/ex/recommender/learn/LearnRecommendationNN.java'
-                                   style="color: black">
-                                    Recommendation using nearest neighbor
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <div w3-include-html="git_hub.html"></div>
             </div>
         </div>
 
@@ -377,5 +310,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
         integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
+
+<script>
+    w3.includeHTML();
+</script>
+
 </body>
 </html>
